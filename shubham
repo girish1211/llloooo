@@ -1,0 +1,13 @@
+job ('git item') {
+    scm {
+        git {
+            remote {
+                name('origin')
+                url('https://github.com/girish1211/llloooo.git')
+                }
+            }
+        }
+    steps {
+        shell('echo successfull implemented item')
+}
+
