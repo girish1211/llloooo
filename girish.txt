@@ -1,0 +1,5 @@
+job('swapnil-seeds') {
+    steps {
+        shell('echo paras panipuri! >> tomato.txt')
+    }
+}
