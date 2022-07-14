@@ -1,0 +1,5 @@
+job('ragini-seeds') {
+    steps {
+        shell('echo paras panipuri! >> tomato.txt')
+    }
+}
