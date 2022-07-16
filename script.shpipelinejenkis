@@ -1,0 +1,21 @@
+pipeline {
+    agent {
+    lable 'lable1'
+    stages {
+        stage('git pull') { 
+            steps {
+                git https://github.com/citb34/studentapp-ui.git
+            }
+        }
+        stage('Test') { 
+            steps {
+                // 
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                // 
+            }
+        }
+    }
+}
